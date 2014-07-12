@@ -4,6 +4,8 @@ icons: https://aur.archlinux.org/packages/stlarch_icons/
 
 battery script uses acpi
 
+clicable area at CPU and MEM uses htop
+
 clicable area at wifi icon uses wicd 
 
 clickable area at the clock icon uses gsimplecal
