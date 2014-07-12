@@ -4,8 +4,10 @@ icons: https://aur.archlinux.org/packages/stlarch_icons/
 
 battery script uses acpi
 
-clickable area at the clock uses gsimplecal
+liclable area at wifi icon uses wicd 
+
+clickable area at the clock icon uses gsimplecal
 
 make sure to point to the scripts in .conkyrc and adjust the position of the windows in the scripts.
 
-![Screenshot](http://goput.it/sk1l.png)
+![Screenshot](http://goput.it/2bc5.png)
