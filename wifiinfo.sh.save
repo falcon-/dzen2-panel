@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ssid=$(iwconfig wlp3s0 |grep ESSID| awk '{print $NF}'|cut -d ":" -f 2)
+ip=$(ifconfig wlp3s0|grep 192|grep inet)
+ip=$(echo $ip|cut -d " " -f 2)
+(echo "connected to $ssid::$ip") | dzen2 -p -x "1100" -y "20" -w "220"  -fn '-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*' -l "5" -fg '#89bcdd' -geometry  -bg '#1c1c24' -sa 'l' -ta 'c'\
+                                                        -title-name 'popup_wifiinfo' -e 'onstart=uncollapse;button1=exit;button3=exit'
+
+

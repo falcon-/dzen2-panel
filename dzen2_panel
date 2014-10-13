@@ -1,2 +1,2 @@
 ﻿#!/bin/bash
-conky | dzen2 -ta r -fn '-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*' -h '14' -w '1366' -x '700' -bg "#1c1c24" -fg "#557280"
+conky | dzen2 -ta r -fn '-*-termsyn-medium-r-*-*-9-*-*-*-*-*-*-*' -h '14' -w '1366' -x '800' -bg "#1c1c24" -fg "#89bcdd" -e 'onstart=lower' 

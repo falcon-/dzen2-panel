@@ -1,7 +1,7 @@
 #!/bin/bash
 #wmname "spectrwm"
 #setxkbmap de nodeadkeys
-vol=`amixer get Master | grep "Front Left:" | awk '{print $5}' | tr -d '[]'`
+vol=`amixer get Master | grep "Mono:" | awk '{print $4}' | tr -d '[]'`
     if [ $vol == "0%" ]
     then
 echo "Mute"
